@@ -4,7 +4,7 @@
 int main()
 {
 	//nazev souboru pro napadeni - je potreba zadat celou cestu k souboru
-	std::filesystem::path input_file = "E:/Users/Jan/PE/Project2.exe";
+	std::filesystem::path input_file = "";
 	//std::filesystem::path input_file = "E:/Games/Counter-Strike WaRzOnE/CS16Launcher.exe";
 
 
