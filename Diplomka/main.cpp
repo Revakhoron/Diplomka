@@ -4,8 +4,8 @@
 int main()
 {
 	//nazev souboru pro napadeni - je potreba zadat celou cestu k souboru
-	std::filesystem::path input_file = "";
-	//std::filesystem::path input_file = "E:/Games/Counter-Strike WaRzOnE/CS16Launcher.exe";
+	std::filesystem::path input_file = ""; //JE NUTNE ZADAT CELOU CESTU K SOUBORU npr: "C:/User/Tonik/doom.exe"
+	//std::filesystem::path input_file = "";
 
 
 	if (std::filesystem::exists(input_file))
